@@ -18,6 +18,6 @@ app.use(express.json())
 
 app.post('/login', login)
 
-app.get('/encode', encode);
+app.post('/encode', encode);
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
